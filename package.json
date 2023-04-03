@@ -1,0 +1,38 @@
+{
+  "name": "lambda-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "bin": {
+    "laws": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavsaharia/lamaws.git"
+  },
+  "author": "Keshav Saharia (keshav.is)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keshavsaharia/lamaws/issues"
+  },
+  "homepage": "https://github.com/keshavsaharia/lamaws#readme",
+  "devDependencies": {
+    "@aws-sdk/client-acm": "^3.301.0",
+    "@aws-sdk/client-apigatewayv2": "^3.300.0",
+    "@aws-sdk/client-cloudfront": "^3.300.0",
+    "@aws-sdk/client-lambda": "^3.301.0",
+    "@aws-sdk/client-route-53": "^3.301.0",
+    "@types/archiver": "^5.3.2",
+    "@types/aws-lambda": "^8.10.114",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "ts-jest": "^29.0.5"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "aws-lambda": "^1.0.7"
+  }
+}
